@@ -165,7 +165,7 @@ FROM customers c
 		ON o.product_id = p.product_id;
 
 
--- Inventory Turnover Insight
+-- Inventory Turnover
 SELECT
 	p.category,
     SUM(o.quantity) AS total_sold 
